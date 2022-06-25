@@ -1,0 +1,80 @@
+.main{
+    background:#f0f0f0;
+}
+.main .cfg1{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.main .pg-section{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.main .pg-section figure {
+    font-size:16px;
+    background: #f0f0f0;
+}
+
+.cfimg{
+    width:750px;
+    height:400px;
+}
+.cfg1 .text-section{
+    background:#FFEBCD;
+    width:30%;
+    height:420px;
+}
+.text-inner{
+    margin:20px;
+    margin-top:50px;
+    text-align:left;
+}
+.text-inner span{
+    font-size:16px;
+}
+.text-inner p{
+    margin-top:20px;
+    font-size:28px;
+    color:red;
+}
+.main .cfg2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cfg2 .pg-section{
+    
+    order:2;
+}
+.cfimg2{
+    width:750px;
+    height:400px;
+}
+.cfg2 .text-section{
+    order:1;
+}
+.text-box1{
+    margin:20px;
+    margin-top:50px;
+    text-align:left;
+}
+.cfg2 .text-section{
+    background:#FFEBCD;
+    width:30%;
+    height:420px;
+    
+}
+.cfg2 .text-section span{
+    font-size:16px;
+}
+.cfg2 .text-section p{
+    text-align:center;
+    margin:50px;
+    color:#40E0D0;
+}
+/*.cfimg2:hover{
+    
+    background: url("/image/originalRobusta.png") no-repeat;
+
+}*/

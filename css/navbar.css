@@ -1,0 +1,73 @@
+.header{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    line-height:1.5em;
+    border:1px solid #eaeaea;
+    position:fixed;
+    top:10px;
+    background:rgb(255, 255, 255, 1);
+    width:100%;
+}
+.header .menu{
+    padding:10px;
+    cursor: pointer;
+}
+.header .nav{
+    display:flex;
+    flex-flow:row nowrap;
+    gap:48px;
+}
+i{
+    margin:5px;
+}
+.nav a{
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+}
+.nav .item-name a:hover{
+    background:#eaeaea;
+    
+}
+.nav li{
+cursor: pointer;
+list-style-type:none;
+}
+.nav .item-name:hover>.nav-inner{
+    transition: all 3 1 ease;
+    display:block;
+}
+.nav .nav-inner{
+    position:absolute;
+    top:100%;
+    height:auto;
+    background:#FFF;
+    border:1px solid #eaeaea;
+}
+
+.nav.item-name .coffee-item{
+    background-color:#A9A9A9;
+    max-width:100%;
+    width:500px;
+    height:auto;
+    margin:50px;
+    position:absolute;
+    border-radius:50px;
+    opacity: 0.5;
+}
+.header .search-icron{
+    display:flex;
+    align-items:center;
+    top:0;
+    right:0;
+
+}
+.header .search-icron i{
+    font-size:24px;
+    padding-right: 8px;
+}
+
+.header .search-icron input{
+    height:24px;
+}
