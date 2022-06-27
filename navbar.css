@@ -1,0 +1,195 @@
+.header{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    line-height:1.5em;
+    border:1px solid #eaeaea;
+    position:fixed;
+    top:0;
+    background:rgb(255, 255, 255, 1);
+    width:100%;
+    cursor:pointer;
+}
+.logo{
+    flex:auto;
+    width:120px;
+}
+.header .menu{
+    flex:auto;
+    padding:10px;
+    cursor: pointer;
+}
+/*ul*/
+.header .nav{
+    display:flex;
+    flex-flow:row nowrap;
+    padding:0 24px;
+    flex: 1 0 70%;
+    position:relative;
+    cursor: pointer;
+}
+/*li*/
+.nav .item-name{
+    cursor: pointer;
+    list-style-type:none;
+    }
+/*修改<a>部分*/
+.nav .name-item{
+    text-decoration: none;
+    font-size:18px;
+    padding:0 40px;
+    color:black;
+}
+.nav .nav-area a{
+    padding: 0 15px;
+}
+
+/*豆子品種*/
+.nav .peanuts-item .peanuts{
+    position:absolute;
+    width:300px;
+    top:100%;
+    background-color:#FFF;
+    text-align:center;
+    border:1px solid #eaeaea;
+    box-shadow: 10px 10px 10px 0px #A9A9A9 ;
+    cursor:pointer;
+    top:100%;
+    z-index:-99;
+    display:none;
+}
+.peanuts-name{
+    border:1px solid #eaeaea;
+}
+
+/*hover or hover >class  or :偽屬性*/
+.nav .peanuts-item:hover .peanuts{
+    display:block;
+}
+.nav .peanuts-name:hover{
+    border-bottom:2px solid #242424;
+}
+.nav .item-name:hover .item-box-inner{
+    display:block;
+}
+.nav :hover .nav-area{
+    display:block;
+}
+
+.nav .nav-area .list:hover{
+    background:#FFF;
+    border-bottom:2px solid #242424;
+}
+.nav .item-name:hover{
+    border-bottom:2px solid #A9A9A9;
+
+}
+.nav .nav-bake:hover .coffee-bake{
+    display:block;
+}
+.nav .bake-f3:hover{
+    background:#FFF;
+    border-bottom:2px solid #242424;
+}
+.nav .bake-s3:hover{
+    background:#FFF;
+    border-bottom:2px solid #242424;
+}
+
+.nav .nav-handle:hover .coffee-handle{
+    display:block;
+}
+.nav .handle-f5:hover{
+    background:#FFF;
+    border-bottom:2px solid #242424;
+}
+.nav .handle-s5:hover{
+    background:#FFF;
+    border-bottom:2px solid #242424;
+}
+/*navbar-內層*/
+.nav-area .inner-item{
+    font-size:16px;
+}
+/*div 內*/
+.nav .nav-area{
+    position:absolute;
+    text-align:center;
+    top:74px;
+    border:1px solid #eaeaea;
+    box-shadow: 10px 10px 10px 0px #A9A9A9 ;
+    cursor:pointer;
+    width:648px;
+    display:none;
+    top:100%;
+    background:#FFF;
+    height:auto;
+    width:650px;
+    display:none;
+}
+/*navrbar-search*/
+.header .search-icron{
+    display: flex;
+    align-items:center;
+    top:0;
+    right:0;
+    flex:0 0 250px;
+}
+.header .search-icron i{
+    font-size:24px;
+    padding-right: 8px;
+    cursor:pointer;
+
+}
+.header .search-icron .input-box{
+    height:24px;
+}
+
+/*title */
+.h3-title{
+    border:1px solid #eaeaea;
+    font-family: 'Noto Sans TC', Bold;
+}
+/*bake*/
+.nav .nav-bake .coffee-bake{
+    position:absolute;
+    width:300px;
+    background-color:#FFF;
+    text-align:center;
+    border:1px solid #eaeaea;
+    box-shadow: 10px 10px 10px 0px #A9A9A9 ;
+    cursor:pointer;
+    top:100%;
+    z-index:-99;
+    display:none;
+}
+.coffee-bake .bake-f3{
+    border: 1px solid #eaeaea;
+    font-family: 'Noto Sans TC', Bold;
+}
+.coffee-bake .bake-s3{
+    font-size:16px;
+}
+
+/*handle*/
+
+.nav .nav-handle .coffee-handle{
+    position:absolute;
+    width:450px;
+    background-color:#FFF;
+    text-align:center;
+    border:1px solid #eaeaea;
+    box-shadow: 10px 10px 10px 0px #A9A9A9 ;
+    cursor:pointer;
+    top:100%;
+    z-index:-99;
+    display:none;
+}
+.coffee-handle .handle-f5{
+    border: 1px solid #eaeaea;
+    font-family: 'Noto Sans TC', Bold;
+}
+.coffee-handle .handle-s5{
+    font-size:16px;
+    padding:0 8px;
+}

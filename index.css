@@ -1,0 +1,47 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url(image.css);
+@import url(navbar.css);
+@import url(main.css);
+@import url(maxmin.css);
+html,
+body{
+    padding:0;
+    margin:0;
+}
+.Wrap-Title{
+    font-family: 'Noto Sans TC', Bold;
+}
+.Wrap-Text{
+    font-family: 'Noto Sans TC', 400;
+}
+.w-100{
+    max-width:100%;
+}
+span{
+    line-height:1.5em;
+}
+h2{
+    font-size:32px;
+    text-align:center;
+    color:#40E0D0;
+}
+h3{
+    font-size:24px;
+    text-align:center;
+    color:#242424;
+}
+i{
+    margin:5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.wrap{
+    width:100%;
+    margin:0 auto;
+    font-size:24px;
+  
+}
+
